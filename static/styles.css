@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #343a40; /* Couleur de fond sombre */
+    color: #ffffff; /* Couleur du texte */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem; /* Taille de la police */
+    font-weight: bold;
+}
+
+.radio-list-container {
+    display: flex; /* Utiliser flexbox pour le centrage */
+    flex-direction: column; /* Aligner verticalement */
+    align-items: center; /* Centrer horizontalement */
+    justify-content: center; /* Centrer verticalement */
+    padding: 20px;
+    margin: 20px auto; /* Centre le conteneur avec marges */
+    border: 2px solid #007BFF; /* Bordure pour un effet visuel */
+    border-radius: 10px; /* Coins arrondis */
+    background-color: #495057; /* Couleur de fond des stations */
+    width: 80%; /* Largeur du conteneur */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre */
+}
+
+.radio-button {
+    background-color: #007BFF; /* Couleur des boutons */
+    color: #ffffff; /* Couleur du texte des boutons */
+    padding: 15px; /* Espacement à l'intérieur des boutons */
+    margin: 10px 0; /* Marge entre les boutons */
+    text-align: center; /* Centre le texte des boutons */
+    border: none; /* Pas de bordure par défaut */
+    border-radius: 5px; /* Coins arrondis des boutons */
+    font-size: 1.2rem; /* Taille de la police */
+    transition: background-color 0.3s ease; /* Transition pour le changement de couleur */
+    cursor: pointer; /* Curseur en forme de main sur les boutons */
+    width: 100%; /* Prendre toute la largeur du conteneur */
+    max-width: 300px; /* Largeur maximale des boutons */
+}
+
+.radio-button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+
+.footer {
+    text-align: center; /* Centre le texte du pied de page */
+    margin-top: 20px;
+}
+
+.discord-link {
+    color: #007BFF; /* Couleur du lien Discord */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+.discord-link:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
+
+/* Style pour le bouton de retour en haut */
+#backToTop {
+    position: fixed;
+    bottom: 20px; /* Position à 20px du bas */
+    right: 20px; /* Position à 20px de la droite */
+    background-color: #007BFF; /* Couleur du bouton */
+    color: #ffffff; /* Couleur du texte */
+    padding: 10px 15px; /* Espacement à l'intérieur */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en forme de main */
+    display: none; /* Cacher le bouton par défaut */
+}
+
+#backToTop:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.radio-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radio-item {
+    background-color: #34495e;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.radio-item h2 {
+    color: #f39c12;
+}
+
+.station-url {
+    font-size: 0.9rem;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.station-url a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.station-url a:hover {
+    text-decoration: underline;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #bdc3c7;
+}
+
+.footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

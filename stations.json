@@ -1,0 +1,56 @@
+{
+    "stations": [
+        {
+            "name": "France Inter",
+            "url": "http://direct.franceinter.fr/live/franceinter-midfi.mp3"
+        },
+        {
+            "name": "France Musique",
+            "url": "http://icecast.radiofrance.fr/francemusique-hifi.aac"
+        },
+        {
+            "name": "France Bleu Limousin",
+            "url": "http://direct.francebleu.fr/live/fblimousin-midfi.mp3"
+        },
+        {
+            "name": "AirZen Radio",
+            "url": "http://n22a-eu.rcs.revma.com/vuumdncf368uv?"
+        },
+        {
+            "name": "SkyRock Radio",
+            "url": "http://icecast.skyrock.net/s/natio_aac_128k"
+        },
+        {
+            "name": "BFM Radio",
+            "url": "http://direct.franceinfo.fr/live/franceinfo-midfi.mp3"
+        },
+        {
+            "name": "Fun Radio",
+            "url": "http://streaming.radio.funradio.fr/fun-1-44-128"
+        },
+        {
+            "name": "Rire & Chansons",
+            "url": "https://scdn.nrjaudio.fm/adwz2/fr/30401/mp3_128.mp3?origine=fluxradios"
+        },
+        {
+            "name": "Alouette",
+            "url": "http://alouette.ice.infomaniak.ch/alouette-high.mp3"
+        },
+        {
+            "name": "Nostalgie",
+            "url": "https://scdn.nrjaudio.fm/adwz2/fr/30601/mp3_128.mp3?origine=fluxradios"
+        },
+        {
+            "name": "Autoroute Info - Réseau Centre Est",
+            "url": "http://media.autorouteinfo.fr:/direct_nord.mp3"
+        },
+        {
+            "name": "Autoroute Info - Réseau Centre & Sud-Ouest",
+            "url": "https://media.autorouteinfo.fr/direct_ouest.mp3"
+        },
+        {
+            "name": "Autoroute Info - Réseau Rhône-Alpes",
+            "url": "https://media.autorouteinfo.fr/direct_sud.mp3"
+        }
+    ]
+}

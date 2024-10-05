@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css"> <!-- Assurez-vous que votre fichier CSS est bien lié -->
+    <title>{{ station.name }}</title>
+</head>
+<body>
+    <h1>Écoutez {{ station.name }}</h1>
+    <div class="radio-details">
+        <p class="station-url">URL : <a href="{{ station.url }}" target="_blank">{{ station.url }}</a></p>
+        <audio controls>
+            <source src="{{ station.url }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="footer">
+        <h2>PANEL CRÉÉ PAR</h2>
+        <p>o2e | Stealer 707</p>
+        <p>Rejoignez-nous sur Discord: <a href="https://discord.gg/NxAPcrrzE" class="discord-link">Discord</a></p>
+    </div>
+</body>
+</html>
